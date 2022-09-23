@@ -1,0 +1,152 @@
+.navbar {
+    padding: 5px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 3px gray;
+    color: white;
+    text-align: center;
+
+}
+
+.nav {
+    text-align: center;
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.img-navbar {
+    width: 30px;
+    margin: 0%;
+}
+
+b {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.nav-item {
+    margin: 0px;
+}
+
+.bold {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container_1 {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    margin-top: 20px;
+
+
+
+}
+
+.img-deco {
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 2px rgb(19, 18, 18);
+
+
+}
+
+.img-deco :hover {
+    height: 280px;
+    border-radius: 30px;
+    box-shadow: 2px black;
+}
+
+.con2-img {
+    height: 60px;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.conterner-item {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 80px;
+}
+
+.para {
+    padding-left: 30px;
+}
+
+.section-item1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    margin: auto;
+}
+
+.section {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.sec-1 {
+    font-weight: bold;
+    font-size: 30px;
+
+
+}
+
+.subcontainer {
+
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+   
+    cursor: pointer;
+    border:1px solid black;
+
+}
+
+.text-size {
+    font-size: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-bg {
+    height: 170px;
+    border-radius: 30px;
+    box-shadow: 2px 1px 3px gray;
+}
+
+
+.btn-color{
+    text-align: center;
+    border-radius: 10px;
+    background-color:#ff1a75 ;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    font-size: 17px;
+}
+.btn-color:hover{
+    background-color:#003366 ;
+    box-shadow: 1px 0px 1x 2px rgb(63, 60, 60);
+    
+}
+.footer{
+    text-align: center;
+    height: 40px;
+    margin: 50px;
+}
+.btn-footer{
+    font-size: 20px;
+}
