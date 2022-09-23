@@ -1,29 +1,51 @@
 .navbar {
     padding: 5px;
     margin: 0px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px 3px gray;
-    color: white;
     text-align: center;
+    display:flex;
+   
 
 }
 
 .nav {
-    text-align: center;
-    padding-left: 40px;
+    
+    padding-left: 30px;
     text-decoration: none;
-    color: white;
-}
+   font-weight: bold;
+   color: black;
+   margin-left: auto;
+   margin-right: auto;
 
+    
+}
+.nav:hover{
+    box-shadow: 0px 0px 1px 2px gray;
+    border-radius: 30px;
+}
+.nav-btn{
+    margin-left: 200px;
+    text-align: center;
+    padding: 10px;
+}
+.menu-btn{
+    margin-left: 400px;
+    display: flex;
+    justify-content: end;
+}   
 .img-navbar {
     width: 30px;
     margin: 0%;
+    padding-left: 10px;
 }
+
 
 b {
     font-weight: bold;
     font-size: 20px;
     margin: 0px;
+}
+.deco{
+    padding-left:20px ;
 }
 
 .nav-item {
@@ -36,28 +58,25 @@ b {
 }
 
 .container_1 {
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: space-around;
     padding-top: 80px;
     margin-top: 20px;
-
-
+    font-size: 18px;
+   
 
 }
 
 .img-deco {
-    height: 300px;
-    border-radius: 50px;
-    box-shadow: 2px rgb(19, 18, 18);
-
-
-}
-
-.img-deco :hover {
-    height: 280px;
+    height: 400px;
     border-radius: 30px;
-    box-shadow: 2px black;
+    box-shadow: 0px 2px 0px 3px rgb(17, 17, 17);
+}
+.img-deco:hover{
+   
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px 4px rgb(54, 48, 48);
 }
 
 .con2-img {
@@ -67,14 +86,26 @@ b {
 .container_2 {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 25px;
+    height: 80px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.container_2:hover{
+    box-shadow: 0px 0px 2px 3px gray;
 }
 
+.first-step{
+    display: flex;
+    justify-content: left;
+}
 .conterner-item {
     display: flex;
     justify-content: center;
     padding: 10px;
     padding-left: 80px;
+    
 }
 
 .para {
@@ -86,11 +117,16 @@ b {
     justify-content: space-evenly;
     font-size: 16px;
     margin: auto;
+    height: 100px;
+    padding: 20px;
 }
 
 .section {
     padding: 15px;
     margin-top: 10px;
+}
+.section:hover{
+   box-shadow: 0px 0px 1px 2px rgb(26, 25, 25);
 }
 
 .sec-1 {
@@ -103,31 +139,30 @@ b {
 .subcontainer {
 
     background-color: transparent;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     border-radius: 10px;
-   
     cursor: pointer;
     border:1px solid black;
-
 }
-
+.subcontainer:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 3px gray;
+}
 .text-size {
     font-size: 20px;
 }
-
 .main-container {
     display: flex;
     justify-content: space-around;
 }
-
 .img-bg {
     height: 170px;
     border-radius: 30px;
-    box-shadow: 2px 1px 3px gray;
+   
+    padding: 10px;
 }
-
-
+    
 .btn-color{
     text-align: center;
     border-radius: 10px;
@@ -136,17 +171,25 @@ b {
     border: none;
     color: aliceblue;
     font-size: 17px;
+    padding: 5px;
+    width: 150px;
+
 }
 .btn-color:hover{
     background-color:#003366 ;
-    box-shadow: 1px 0px 1x 2px rgb(63, 60, 60);
+    box-shadow: 1px 1px 0px 2px rgb(58, 56, 56);
     
 }
 .footer{
     text-align: center;
-    height: 40px;
-    margin: 50px;
+    height: 30px;
+    margin: 30px;
+    padding: 20px;
 }
 .btn-footer{
     font-size: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
 }
